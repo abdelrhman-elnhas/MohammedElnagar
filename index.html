@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#001a65" />
+    <meta name="author" content="Master code" />
+    <meta name="MobileOptimized" content="320" />
+    <meta property="og:title" content="Mohammed Elnagar" />
+    <meta property="og:type" content="website" />
+    <title>Mohammed Elnagar</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/FontAwesome/css/all.min.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="./assets/Animate/css/animate.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+
+    <!-- Header Section -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex align-items-center justify-content-between gap-5">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="60" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#About">عن المعلم</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Videos">الفيديوهات المجانية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Contact">تواصل معنا</a>
+              </li>
+            </ul>
+            <div class="register">
+              <button class="headerBtn">تسجيل الدخول</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="Hero" class="hero">
+        <div class="container d-flex justify-content-start align-items-center">
+          <svg class="blobContainer" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#eee"
+              d="M34.5,-58.2C47,-52.5,61.2,-48,68.5,-38.5C75.9,-29,76.5,-14.5,74,-1.4C71.5,11.6,66,23.3,59.3,33.9C52.6,44.5,44.7,54.1,34.6,58.6C24.5,63.1,12.2,62.6,-2.1,66.2C-16.4,69.8,-32.8,77.5,-45.4,74.5C-58,71.4,-66.8,57.5,-67.2,43.3C-67.6,29.1,-59.5,14.5,-60.5,-0.6C-61.5,-15.7,-71.6,-31.4,-67.5,-39.3C-63.5,-47.1,-45.3,-47.1,-31.7,-52.2C-18.1,-57.3,-9.1,-67.6,1,-69.2C11,-70.9,21.9,-63.9,34.5,-58.2Z"
+              transform="translate(100 100)" />
+          </svg>
+          <img class="hero-img" src="./images/hero.png" />
+          <div class="heroContent text-white">
+            <p class="subTxt">
+              متعة تعلم
+            </p>
+            <h1 class="mainTxt">الرياضيات</h1>
+            <button class="heroBtn d-flex align-items-center"><i class="ms-3 fa-solid fa-right-to-bracket"></i>الدخول
+              للمنصة</button>
+          </div>
+        </div>
+
+
+      </section>
+      <!-- About Section -->
+      <section id="About">
+
+      </section>
+
+      <!-- Videos Section -->
+      <section id="Videos">
+      </section>
+
+      <!-- Contact Section -->
+      <section id="Contact">
+        <div class="cover">
+          <img class="img-fluid" src="./images/contact.png" alt="">
+          <img class="img-fluid" src="./images/contact.png" alt="">
+        </div>
+        <div class="card d-flex align-items-center justify-content-center">
+          <h2>تواصل معنا</h2>
+          <form class="row justify-content-center align-items-center flex-column g-3">
+            <input class="col-12" type="text" placeholder="اسم المستخدم">
+            <input class="col-12" type="number" placeholder="رقم التليفون">
+            <textarea class="col-12" type="textarea" cols="60" rows="6" placeholder="اترك رسالتك هنا ..."></textarea>
+            <button class="contact-btn btn" type="submit">ارسال</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="copyright" dir="ltr">
+            © Copyright <strong><a href="">MasterCode</a></strong>. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap Script File -->
+    <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+    <!-- FontAwesome Script File -->
+    <script src="assets/FontAwesome/js/all.min.js"></script>
+    <!-- WOW JS -->
+    <script src="./assets/Animate/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+
+</html>
